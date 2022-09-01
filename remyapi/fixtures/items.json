@@ -1,0 +1,66 @@
+[
+    {
+        "model": "remyapi.item",
+        "pk": 1,
+        "fields": {
+            "name": "Photo",
+            "description": "Photo of Sam. There's a note on the back: 'Remember, if you get nervous, just pretend I'm in the front row :)'"
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 2,
+        "fields": {
+            "name": "Hook",
+            "description": "Large metal hook. Probably used in a meat factory or for commercial fishing."
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 3,
+        "fields": {
+            "name": "Ticket",
+            "description": "Untorn orange ticket. Reminds you of going to the county fair in high school"
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 4,
+        "fields": {
+            "name": "Coat",
+            "description": "Old goosedown coat. Looks awful, smells worse.... very warm."
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 5,
+        "fields": {
+            "name": "Tube",
+            "description": "Plastic poster tube. Covered with faded TSA stickers. How many conferences did this thing go to?"
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 6,
+        "fields": {
+            "name": "Key",
+            "description": "Rusted key. Looks like it would work on a desk drawer or a small lockbox."
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 7,
+        "fields": {
+            "name": "Tooth",
+            "description": "Human canine tooth. Surprisingly large. You start thinking of red kites and summer sun."
+        }
+    },
+    {
+        "model": "remyapi.item",
+        "pk": 999,
+        "fields": {
+            "name": "NULL ITEM",
+            "description": "NULL ITEM"
+        }
+    }
+]

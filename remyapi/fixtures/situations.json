@@ -1,0 +1,58 @@
+[
+    {
+        "model": "remyapi.situation",
+        "pk": 1,
+        "fields": {
+            "text": "You are standing next to the black SUV. A massive N-S trending fjord extends to the north of where you are standing, bordered by steep mountains ranges to the west and east. The smell of the sea is all around- fresh air, decay. There is a dock about 20 feet to the north of you which extends over the water.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 2,
+        "fields": {
+            "text": "You are looking through the trunk of the car. You find some clothes, a pile of poster tubes, and a lockbox.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 3,
+        "fields": {
+            "text": "Coat taken.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 4,
+        "fields": {
+            "text": "Poster tube taken.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 5,
+        "fields": {
+            "text": "Lockbox is locked. You cannot open it without a key.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 6,
+        "fields": {
+            "text": "You open the lockbox. There is a human canine tooth inside of it.",
+            "location": "South Shore"
+        }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 7,
+        "fields": {
+            "text": "Tooth taken. You re-lock the lockbox to cover your tracks.",
+            "location": "South Shore"
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "remyapi.characterchoice",
+        "pk": 1,
+        "fields": {
+            "character": 1,
+            "choice": 3,
+            "chosen": false
+        }
+    },
+    {
+        "model": "remyapi.characterchoice",
+        "pk": 2,
+        "fields": {
+            "character": 1,
+            "choice": 4,
+            "chosen": false
+        }
+    },
+    {
+        "model": "remyapi.characterchoice",
+        "pk": 3,
+        "fields": {
+            "character": 1,
+            "choice": 6,
+            "chosen": false
+        }
+    }
+]

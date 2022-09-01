@@ -1,0 +1,22 @@
+[
+    {
+        "model": "remyapi.character",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "first_name": "Trent",
+            "current_situation": 1,
+            "items": [1,6]
+        } 
+    },
+    {
+        "model": "remyapi.character",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "first_name": "Blair",
+            "current_situation": 1,
+            "items": [2,6]
+        } 
+    }
+]

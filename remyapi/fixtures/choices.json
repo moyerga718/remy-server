@@ -1,0 +1,204 @@
+[
+    {
+        "model": "remyapi.choice",
+        "pk": 1,
+        "fields": {
+            "situation": 1,
+            "text": "Check car",
+            "outcome_situation": 2,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+
+
+
+
+
+
+
+    {
+        "model": "remyapi.choice",
+        "pk": 3,
+        "fields": {
+            "situation": 2,
+            "text": "Take ratty coat",
+            "outcome_situation": 3,
+            "get_item_bool": true,
+            "new_item": 4,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 4,
+        "fields": {
+            "situation": 2,
+            "text": "Take poster tube",
+            "outcome_situation": 4,
+            "get_item_bool": true,
+            "new_item": 5,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 5,
+        "fields": {
+            "situation": 2,
+            "text": "Investigate lockbox",
+            "outcome_situation": 5,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 6,
+        "fields": {
+            "situation": 2,
+            "text": "Unlock lockbox",
+            "outcome_situation": 6,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": true,
+            "required_item": 6
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 7,
+        "fields": {
+            "situation": 2,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 8,
+        "fields": {
+            "situation": 3,
+            "text": "Continue looking through car",
+            "outcome_situation": 2,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 9,
+        "fields": {
+            "situation": 3,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 10,
+        "fields": {
+            "situation": 4,
+            "text": "Continue looking through car",
+            "outcome_situation": 2,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 11,
+        "fields": {
+            "situation": 4,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 12,
+        "fields": {
+            "situation": 5,
+            "text": "Continue looking through car",
+            "outcome_situation": 2,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 13,
+        "fields": {
+            "situation": 5,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 14,
+        "fields": {
+            "situation": 6,
+            "text": "Take tooth",
+            "outcome_situation": 7,
+            "get_item_bool": true,
+            "new_item": 7,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 15,
+        "fields": {
+            "situation": 7,
+            "text": "Continue looking through car",
+            "outcome_situation": 2,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999 
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 16,
+        "fields": {
+            "situation": 7,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999
+        }
+    }
+]
