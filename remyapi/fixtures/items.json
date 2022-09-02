@@ -4,7 +4,8 @@
         "pk": 1,
         "fields": {
             "name": "Photo",
-            "description": "Photo of Sam. There's a note on the back: 'Remember, if you get nervous, just pretend I'm in the front row :)'"
+            "description": "Photo of Sam. There's a note on the back: 'Remember, if you get nervous, just pretend I'm in the front row :)'",
+            "starting_item": true
         }
     },
     {
@@ -12,7 +13,8 @@
         "pk": 2,
         "fields": {
             "name": "Hook",
-            "description": "Large metal hook. Probably used in a meat factory or for commercial fishing."
+            "description": "Large metal hook. Probably used in a meat factory or for commercial fishing.",
+            "starting_item": true
         }
     },
     {
@@ -20,7 +22,8 @@
         "pk": 3,
         "fields": {
             "name": "Ticket",
-            "description": "Untorn orange ticket. Reminds you of going to the county fair in high school"
+            "description": "Untorn orange ticket. Reminds you of riding The Zipper at the county fair.",
+            "starting_item": true
         }
     },
     {
@@ -28,7 +31,8 @@
         "pk": 4,
         "fields": {
             "name": "Coat",
-            "description": "Old goosedown coat. Looks awful, smells worse.... very warm."
+            "description": "Old goosedown coat. Looks awful, smells worse.... very warm.",
+            "starting_item": false
         }
     },
     {
@@ -36,7 +40,8 @@
         "pk": 5,
         "fields": {
             "name": "Tube",
-            "description": "Plastic poster tube. Covered with faded TSA stickers. How many conferences did this thing go to?"
+            "description": "Plastic poster tube. Covered with faded TSA stickers. How many conferences did this thing go to?",
+            "starting_item": false
         }
     },
     {
@@ -44,7 +49,8 @@
         "pk": 6,
         "fields": {
             "name": "Key",
-            "description": "Rusted key. Looks like it would work on a desk drawer or a small lockbox."
+            "description": "Rusted key. Looks like it would work on a desk drawer or a small lockbox.",
+            "starting_item": false
         }
     },
     {
@@ -52,7 +58,8 @@
         "pk": 7,
         "fields": {
             "name": "Tooth",
-            "description": "Human canine tooth. Surprisingly large. You start thinking of red kites and summer sun."
+            "description": "Human canine tooth. Surprisingly large. You start thinking of red kites and summer sun.",
+            "starting_item": false
         }
     },
     {
@@ -60,7 +67,8 @@
         "pk": 999,
         "fields": {
             "name": "NULL ITEM",
-            "description": "NULL ITEM"
+            "description": "NULL ITEM",
+            "starting_item": false
         }
     }
 ]
