@@ -5,3 +5,4 @@ class Item(models.Model):
 
     name = models.CharField(max_length=35)
     description = models.TextField()
+    starting_item = models.BooleanField(default=False)

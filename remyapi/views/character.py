@@ -6,7 +6,7 @@ from rest_framework.decorators import action
 
 from remyapi.models import Character
 from remyapi.models import Situation
-from django.contrib.auth.models import models
+from django.contrib.auth.models import User
 
 from remyapi.serializers.character import CharacterSerializer
 

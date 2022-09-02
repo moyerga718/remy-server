@@ -22,10 +22,12 @@ from django.urls import path
 from rest_framework import routers
 from remyapi.views import register_user, login_user
 
-from remyapi.views.character import CharacterView
+from remyapi.views import CharacterView
+from remyapi.views import ItemView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'characters', CharacterView, 'character')
+router.register(r'items', ItemView, 'item')
 
 
 urlpatterns = [
