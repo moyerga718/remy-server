@@ -8,6 +8,7 @@ from remyapi.models import Character
 from remyapi.models import Situation
 from remyapi.models import CharacterChoice
 from remyapi.models import Choice
+from remyapi.models import Item
 from django.contrib.auth.models import User
 
 from remyapi.serializers.character import CharacterSerializer
@@ -47,6 +48,32 @@ class CharacterView(ViewSet):
 
         serializer = CharacterSerializer(character)
         return Response(serializer.data)
+    
+    def update(self, request, pk):
+        """update character. This will be called whenever a choice is selected for a situation.
+        Along with characterId, client will also be sending outcomeId (resulting situation) and 
+        possibly itemId (if character gets a new item from the choice) as query parameters.
+        """
+        #Get character
+        character = Character.objects.get(pk = pk)
+
+        #get data from query parameters
+        outcomeId = request.query_params.get('outcome', None)
+        itemId = request.query_params.get('item', None)
+
+        #get situation object based on outcome id. This call will always have this query parameter, so no need for if statement
+        new_situation = Situation.objects.get(pk = outcomeId)
+        character.current_situation = new_situation
+
+        #If url has itemId query parameter... 
+        if itemId is not None: 
+            #add that item to character
+            # item = Item.objects.get(pk = itemId)
+            character.items.add(itemId)
+
+        #save the character.
+        character.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
     def destroy(self, request, pk):
         """delete character"""

@@ -215,5 +215,47 @@
             "required_item": 999,
             "important": false
         }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 17,
+        "fields": {
+            "situation": 2,
+            "text": "Take Key",
+            "outcome_situation": 8,
+            "get_item_bool": true,
+            "new_item": 6,
+            "required_item_bool": false,
+            "required_item": 999,
+            "important": true
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 18,
+        "fields": {
+            "situation": 8,
+            "text": "Continue looking through car",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999,
+            "important": false
+        }
+    },
+    {
+        "model": "remyapi.choice",
+        "pk": 19,
+        "fields": {
+            "situation": 8,
+            "text": "Go back",
+            "outcome_situation": 1,
+            "get_item_bool": false,
+            "new_item": 999,
+            "required_item_bool": false,
+            "required_item": 999,
+            "important": false
+        }
     }
 ]
