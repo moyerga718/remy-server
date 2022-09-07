@@ -26,4 +26,14 @@
             "chosen": false
         }
     }
+    ,
+    {
+        "model": "remyapi.characterchoice",
+        "pk": 3,
+        "fields": {
+            "character": 1,
+            "choice": 17,
+            "chosen": false
+        }
+    }
 ]

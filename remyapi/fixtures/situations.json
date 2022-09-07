@@ -54,5 +54,13 @@
             "text": "Tooth taken. You re-lock the lockbox to cover your tracks.",
             "location": "South Shore"
         }
+    },
+    {
+        "model": "remyapi.situation",
+        "pk": 8,
+        "fields": {
+            "text": "Key Taken",
+            "location": "South Shore"
+        }
     }
 ]
