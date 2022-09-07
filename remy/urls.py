@@ -24,10 +24,15 @@ from remyapi.views import register_user, login_user
 
 from remyapi.views import CharacterView
 from remyapi.views import ItemView
+from remyapi.views import ChoiceView
+from remyapi.views.situation import SituationView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'characters', CharacterView, 'character')
 router.register(r'items', ItemView, 'item')
+router.register(r'situations', SituationView, 'situation')
+router.register(r'choices', ChoiceView, 'choice')
+
 
 
 urlpatterns = [
