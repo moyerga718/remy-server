@@ -6,6 +6,8 @@ from rest_framework.decorators import action
 
 from remyapi.models import Character
 from remyapi.models import Situation
+from remyapi.models import CharacterChoice
+from remyapi.models import Choice
 from django.contrib.auth.models import User
 
 from remyapi.serializers.character import CharacterSerializer
@@ -28,6 +30,7 @@ class CharacterView(ViewSet):
     def create(self, request):
         """Handle create new character"""
         user = request.auth.user
+        important_choices = Choice.objects.filter(important = True)
         current_situation = Situation.objects.get(pk = 1)
         character = Character.objects.create(
             user = user,
@@ -35,6 +38,12 @@ class CharacterView(ViewSet):
             current_situation = current_situation,
         )
         character.items.add(*request.data['items'])
+        for choice in important_choices:
+            CharacterChoice.objects.create(
+                character = character,
+                choice = choice,
+                chosen = False
+        )
 
         serializer = CharacterSerializer(character)
         return Response(serializer.data)

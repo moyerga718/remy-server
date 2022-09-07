@@ -5,3 +5,4 @@ class CharacterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Character
         fields = ('id','first_name','current_situation','items')
+        depth = 1

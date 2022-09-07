@@ -9,7 +9,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": false
         }
     },
 
@@ -29,7 +30,8 @@
             "get_item_bool": true,
             "new_item": 4,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": true
         }
     },
     {
@@ -42,7 +44,8 @@
             "get_item_bool": true,
             "new_item": 5,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": true
         }
     },
     {
@@ -55,7 +58,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -68,7 +72,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": true,
-            "required_item": 6
+            "required_item": 6,
+            "important": true
         }
     },
     {
@@ -81,7 +86,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -94,7 +100,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -107,7 +114,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999 ,
+            "important": false
         }
     },
     {
@@ -120,7 +128,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -133,7 +142,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -146,7 +156,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -159,7 +170,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -172,7 +184,8 @@
             "get_item_bool": true,
             "new_item": 7,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": true
         }
     },
     {
@@ -185,7 +198,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999 
+            "required_item": 999,
+            "important": false
         }
     },
     {
@@ -198,7 +212,8 @@
             "get_item_bool": false,
             "new_item": 999,
             "required_item_bool": false,
-            "required_item": 999
+            "required_item": 999,
+            "important": false
         }
     }
 ]

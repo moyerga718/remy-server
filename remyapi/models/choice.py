@@ -10,3 +10,4 @@ class Choice(models.Model):
     new_item = models.ForeignKey("Item", on_delete=models.CASCADE, related_name = "find_item_choices")
     required_item_bool = models.BooleanField(default=False)
     required_item = models.ForeignKey("Item", on_delete=models.CASCADE, related_name="use_item_choices")
+    important = models.BooleanField(default=False)
